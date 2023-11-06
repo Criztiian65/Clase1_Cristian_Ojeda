@@ -6,17 +6,17 @@
 
     switch (opcion) {
       case 'opcion1':
-        precios.innerHTML= `<div class="rounded-3 border border-3 border-secondary-subtle bg-danger" text-bg-danger rounded-3">El basico tiene un coste de $500.</div>`
+        precios.innerHTML= `<div class="py-2 rounded-3 border border-3 border-secondary-subtle bg-danger"><h4>El basico tiene un coste de $500.</h4></div>`
         break;
       case 'opcion2':
-        precios.innerHTML= `<div class="rounded-3 border border-3 border-secondary-subtle bg-danger" text-bg-danger rounded-3" >El intermedio tiene un coste de $1000.</div>`
+        precios.innerHTML= `<div class="py-2 rounded-3 border border-3 border-secondary-subtle bg-danger" ><h4>El intermedio tiene un coste de $1000.</h4></div>`
         break;
       case 'opcion3':
-        precios.innerHTML= `<div class="rounded-3 border border-3 border-secondary-subtle bg-danger" text-bg-danger rounded-3">El premium tiene un coste de $1500.</div>`
+        precios.innerHTML= `<div class="py-2 rounded-3 border border-3 border-secondary-subtle bg-danger"><h4>El premium tiene un coste de $1500.</h4></div>`
         break;
         
         default:
-          precios.innerHTML= `<div class="rounded-3 border border-3 border-secondary-subtle bg-danger" text-bg-danger rounded-3">Elije uno!</div>`
+          precios.innerHTML= `<div class="py-2 rounded-3 border border-3 border-secondary-subtle bg-danger"><h4>Elije uno!</h4></div>`
         break;
     }
 

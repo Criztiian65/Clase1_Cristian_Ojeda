@@ -15,25 +15,28 @@
 
         <!-- Rellenar campos con datos necesarios -->
 
-        <nav class="navbar navbar-expand-sm bg-body-tertiary ">
+        <nav class="navbar navbar-expand-sm bg-secondary ">
             <div class="container-fluid justify-content-around ">
-              <div class="col-md-4 text-center">
+              <div class="col-md-4 t">
                 <img class="navbar-brand d-sm-none" src="../img/logo.png" height="50" width="50" alt="logo escudo">
                 <a class="navbar-brand d-none d-md-block " href="#"><img src="../img/logo.png" height="50" width="50" alt="logo escudo">Seguro no pagamos cooperativa</a>
               </div>
       
-              <div class="col text-end ">
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon "></span>
-                </button>
-              </div>
-      
+              
               <div class="col-md-4 text-center ">
-                <div class="collapse navbar-collapse " id="navbarNav">
+                  <div class="col ">
+                    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon "></span>
+                    </button>
+                  </div>
+                
+                </div>
+                <div class="collapse navbar-collapse bs-secondary-subtle " id="navbarNav">
                   <ul class="navbar-nav ">
-                    <li class="nav-item">
-                      <a class="nav-link active" aria-current="page" href="#">Home</a>
-                    </li>
+                      <li class="nav-item">
+                          <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+
                     <li class="nav-item">
                       <a class="nav-link" href="#">Nosotros</a>
                     </li>
@@ -42,7 +45,7 @@
                     </li>
                   </ul>
                 </div>
-              </div>
+              
             </div>
           </nav>
           
@@ -72,13 +75,13 @@
             <label for="telefono">Telefono: </label>
             <input class="form-control form-control-md" type="tel" id="telefono" name="telefono" placeholder="Ingrese su telefono" required><br>
 
-            <label for="opciones">Seleccione una opción:</label>
+            <label for="opciones">Seleccione una un plan:</label>
             <select id="opciones" name="opciones" >
                 <option value="">None</option>
                 <option value="opcion1">Basico</option>
                 <option value="opcion2">Intermedio</option>
                 <option value="opcion3">Premium</option>
-            </select>
+            </select><br>
 
             <button type="submit">Enviar</button><br><br>
         </form>
@@ -87,7 +90,7 @@
 </div>
             
             <div class="row text-center my-3 justify-content-center ">
-                <div class="precios col-4 " id="precios" >
+                <div class="precios col-md-4 " id="precios" >
                 </div>
             </div>
 
